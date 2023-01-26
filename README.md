@@ -1,4 +1,4 @@
-## Assignments-
+## Assignments:
 
 |   #   | Folder Link | Assignment Description |
 | :---: | ----------- | ---------------------- |
