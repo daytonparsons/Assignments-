@@ -1,1 +1,25 @@
+## P01 - Vector Class
+### Dayton Parsons
+### Description:
 
+this code defines a class named "Vector" that provides methods for
+ creating, modifying, and printing out a dhynamic array of intergers. The class
+ can be initialized with a linked list of integers or with values read in from
+ a file. The class provides methods to insert elements or remove elements at
+ the beginning, end, or at a specific location. The class also has a method to
+ find the index of a given element with a specific value, and for printing the
+ contents of the linked list to the console and to the output file "test.out".
+ The main function created objects of the "Vector" class.
+
+### Files
+
+|   #   | File            | Description                                        |
+| :---: | --------------- | -------------------------------------------------- |
+|   1   | main.cpp        | Main driver of my project that launches game.      |
+|   2   | input.dat       | Helper class that holds movement functions         |
+|   3   | input1.dat      | Helper class that assists with textures and images |
+|   4   | input2.dat      | Main driver of my project that launches game.      |
+|   5   | input3.dat      | Helper class that holds movement functions         |
+|   6   | test.out        | Helper class that assists with textures and images |
+
+### Instructions
