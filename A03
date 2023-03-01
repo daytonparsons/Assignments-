@@ -2,6 +2,26 @@
 
 using namespace std;
 
+/**
+ * CircularArrayQue
+ * 
+ * Description:
+ *      This class CircularArrayQue implements a circular queue using an array
+ * 
+ * Public Methods:
+ *     - void push(); 
+ *     - int pop(); 
+ *     - ostream &operator<<(); 
+ * 
+ * Private Methods:
+ *     - void init(); 
+ *     - bool Full(); 
+ * 
+ * Usage: 
+ *     you can use this class by adding and removing items from both ends of the queue
+ *     
+ *      
+ */
 
 class CircularArrayQue {
 private:
@@ -29,6 +49,20 @@ public:
         init(size);
     }
 
+
+     /**
+     * Public : Push
+     * 
+     * Description:
+     *      Will push an item onto the queue
+     * 
+     * Params:
+     *      int item; 
+     *     
+     * 
+     * Returns:
+     *      nothing, it is void. 
+     */
     void Push(int item) {
         if (!Full()) {
             Container[Rear] = item;
@@ -39,6 +73,19 @@ public:
         }
     }
 
+     /**
+     * Public : Pop
+     * 
+     * Description:
+     *      Will pop an item off of the queue
+     * 
+     * Params:
+     *      N/A 
+     *     
+     * 
+     * Returns:
+     *      the new last integer after we pop the last off  
+     */
     int Pop() {
         int temp = Container[Front];
         Front = (Front + 1) % QueSize;
@@ -48,6 +95,20 @@ public:
     friend ostream &operator<<(ostream &os, const CircularArrayQue &other);
 };
 
+     /**
+     * Public &operator<< 
+     * 
+     * Description:
+     *      Overloading << operator
+     * 
+     * Params:
+     *      os;
+     *      CircularArrayQue; 
+     *     
+     * 
+     * Returns:
+     *      ostream   
+     */
 ostream &operator<<(ostream &os, const CircularArrayQue &other) {
 
     for (int i = other.Front; i < other.CurrentSize; i = (i + 1) % other.QueSize) {
