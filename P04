@@ -1,1 +1,18 @@
+## P04 - Roll Them Bones
+### Dayton Parsons
+### Description:
+
+This program uses the 'dice.py' file to create two classes. 'Die' and 'Dice' which are used to roll a die (or dice) and perform 
+various operations with them. The Die class simulates a die with a specified number of sides and has a method for rolling the 
+die to return a random integer value. The Dice class creates multiple Die objects to simulate rolling multiple dice at once and
+has methods for finding the sum, max, min, and average of the values rolled. 
+
+### Files
+
+|   #   |                                       File                      | Description                                        |
+| :---: | ----------------------------------------------------------------| -------------------------------------------------- |
+|   1   | https://replit.com/@DaytonParsons/OOP-P04#main.py               | Main file of my program                            |
+|   2   | https://replit.com/@DaytonParsons/OOP-P04#dice.py               | Dice file where our classes are created            | 
+
+### Instructions
 
